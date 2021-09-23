@@ -18,22 +18,23 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
         <a class="navbar-brand" href="./front-page.html">Strivazon</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="./front-page.html">Current products<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./back-office.html">Back-office</a>
-            </li>
-          </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./front-page.html">Current products</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./back-office.html">Back-office</a>
+                </li>
+            </ul>
         </div>
-      </nav>
+    </nav>
 
-      
+
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6">
@@ -41,8 +42,8 @@
                 <form onsubmit="submitProduct(event)">
                     <div class="form-group">
                         <label for="name">Product name:</label>
-                        <input id="name" type="text" class="form-control"
-                            placeholder="Specify a name for the product" required/>
+                        <input id="name" type="text" class="form-control" placeholder="Specify a name for the product"
+                            required />
                     </div>
                     <div class="form-group">
                         <label for="description">Product description:</label>
@@ -51,16 +52,18 @@
                     </div>
                     <div class="form-group">
                         <label for="brand">Product brand:</label>
-                        <input id="brand" type="text" class="form-control" placeholder="Specify a name for the brand" required/>
+                        <input id="brand" type="text" class="form-control" placeholder="Specify a name for the brand"
+                            required />
                     </div>
                     <div class="form-group">
                         <label for="image">Product image:</label>
-                        <input id="image" type="url" class="form-control" placeholder="Add the URL of product image" required/>
+                        <input id="image" type="url" class="form-control" placeholder="Add the URL of product image"
+                            required />
                     </div>
                     <div class="form-group">
                         <label for="price">Product Price:</label>
                         <input id="price" type="number" class="form-control"
-                            placeholder="Specify a price for the product" required/>
+                            placeholder="Specify a price for the product" required />
                     </div>
                     <button class="btn btn-secondary">Cancel</button>
                     <button type="submit" class="btn btn-primary">Submit</button>
