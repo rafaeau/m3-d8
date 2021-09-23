@@ -93,7 +93,7 @@
                 jsonData.forEach((product) => {
                     const div = document.createElement("div");
                     div.classList.add();
-                    div.innerHTML = `
+                    div.innerHTML += `
                     <div class="card mt-3 mb-5 ml-2 mr-2">
                         <img src="${product.imageUrl}" class="card-img-top" alt="..." width="150px" height="150px">
                         <div class="card-body">
